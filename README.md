@@ -7,7 +7,7 @@ Steps :
 
 - Observe `dist/cjs` or `dist/esm` folder in `stencil-wizard-comp`.
 
-- You will see a file called `stencil-wizard-comp_4.cjs.entry.js` you will see a filename somthing like this ...
+- You will see a file called `stencil-wizard-comp_4.cjs.entry.js` you will see contents of file somthing like this ...
 
 ```js
 exports.stencil_wizard_comp =
