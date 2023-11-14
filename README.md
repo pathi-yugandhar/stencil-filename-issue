@@ -19,7 +19,9 @@ exports.stencil_wizard_footer =
 exports.stencil_wizard_header =
   stencilWizardComp_stencilWizardContainer_stencilWizardFooter_stencilWizardHeader_entry.StencilWizardHeader;
 ```
-Issue: keep adding new components to `stencil-wizard-comp` then you will observe that filenames keep appending.
+# Issue: 
+
+keep adding new components to `stencil-wizard-comp` then you will observe that filenames keep appending.
 
 Under `stencil-wizard-comp/dist/cjs` you will notice a lengthy filename. This filename keeps growing as even we add new componets to `stencil-wizard`
 
@@ -28,3 +30,4 @@ For example below is the filename created under `stencil-wizard/dis/cjs` ..
 ```
 stencil-wizard-comp.stencil-wizard-container.stencil-wizard-footer.stencil-wizard-header-41928303.js
 ```
+if you build a stencil component library with 50 components then your filename length might go over 255 chars ... which few of the OS won't support.
